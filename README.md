@@ -16,6 +16,10 @@ The script uses `jhead`(jpeg) and `mediainfo` (video) tools to retrieve metadata
 
 ### Output
 ```
-IMG12345.jpg --> 20220812-132404_IMG1234.jpg
+IMG12345.jpg --> 20220812-132404_IMG12345.jpg
+IMG12346.jpg --> 20220812-132516_IMG12346.jpg
 VID54321.mp4 --> 20220815-104512_VID54321.mp4
+No metadata for IMG10738.jpeg!
+VID04321.MOV --> 20220815-114512_VID04321.MOV
+...
 ```
