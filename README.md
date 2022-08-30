@@ -1,7 +1,8 @@
 # ren2date
 
 ## Description
-A simple bash script to rename all .jpg images and videos in a folder by prefixing the date taken/recorded in the format: `YYYYMMDD-HHMMSS_<original filename>`
+A simple bash script to rename all .jpg images and videos in a folder by prefixing the date taken/recorded in the format: 
+`YYYYMMDD-HHMMSS_<original filename>`
 
 The script uses `jhead`(jpeg) and `mediainfo` (video) tools to retrieve metadata from files.
 
