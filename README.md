@@ -1,4 +1,4 @@
-# ren2date
+# Media Sorting
 
 ## Description
 A simple bash script to deal with dates in images and video files. The idea is to facilitate the sorting of this files in the place where they are stored. 
@@ -14,10 +14,10 @@ The script uses `jhead`(jpeg) and `mediainfo` (video) tools to retrieve metadata
 ## Usage examples
 
 ```
-./ren2date.sh rename "path-to-files/*"
-./ren2date.sh touch "path-to-files/*.jpg"
-./ren2date.sh test "path-to-files/*.mp4"
-./ren2date.sh touch "path-to-files/*.mov"
+./media-sort.sh rename "path-to-files/*"
+./media-sort.sh touch "path-to-files/*.jpg"
+./media-sort.sh test "path-to-files/*.mp4"
+./media-sort.sh touch "path-to-files/*.mov"
 ```
 *Notice: double quotes in path is necessary*
 
