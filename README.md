@@ -5,7 +5,7 @@ A simple bash script to deal with dates in images and video files. The idea is t
 
 Options:
 
-- **rename**: rename all .jpg images and videos in a folder by prefixing the date taken/recorded in the format: `YYYYMMDD-HHMMSS-<original filename>`
+- **rename**: rename all .jpg images and videos in a folder by prefixing the date taken/recorded in the format: `YYYYMMDD-HHMMSS_<original filename>`
 - **touch**: change modified date to date taken/recorded.
 - **test**: just displays date taken/recorded of files in directory
 
