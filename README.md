@@ -31,3 +31,9 @@ No metadata for IMG10738.jpeg!
 VID04321.MOV --> 20220815-114512_VID04321.MOV
 ...
 ```
+
+## Integrations
+### Nextcloud
+After making changes you need to scan the corresponding folder:
+
+`sudo -u www-data php /var/www/nextcloud/occ -v files:scan username --path=/username/files/Photos/Xmas2022`
