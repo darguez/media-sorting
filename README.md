@@ -1,7 +1,7 @@
 # Media Sorting
 
 ## Description
-A simple bash script to deal with dates in images and video files. The idea is to facilitate the sorting of this files in the place where they are stored. 
+A simple bash script to deal with dates in images and video files. The idea is to facilitate the sorting of these files in the place where they are stored. 
 
 Options:
 
